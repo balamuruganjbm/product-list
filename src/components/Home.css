@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.Header {
+  height: 60px;
+  position: fixed;
+  width: 100vw;
+  background-color: #fc5185;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Header i {
+  color: black;
+  z-index: 2;
+  font-size: 2rem;
+}
+.Body-Content {
+  display: flex;
+}
+.Sidebar {
+  position: fixed;
+  z-index: -1;
+  height: 100vh;
+  width: 60px;
+  background-color: #364f6b;
+}
+.Container {
+  margin-top: 60px;
+  margin-left: 60px;
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+}
+
+.Contents {
+  display: flex;
+  height: 83vh;
+}
+.No-Filter {
+  display: none;
+}
+.Filter-Content {
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 30vw;
+  height: 80vh;
+}
+.Full-Table table {
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 93vw;
+  border-collapse: collapse;
+}
+.Full-Table {
+  overflow-y: scroll;
+  height: 80vh;
+}
+.Half-Table table {
+  margin-left: 8px;
+  width: 65vw;
+  border-collapse: collapse;
+}
+.Half-Table {
+  width: 50vw;
+  overflow-x: auto;
+  overflow-y: scroll;
+  white-space: nowrap;
+  height: 80vh;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #d8c2c2;
+}
+
+th {
+  background-color: #fc5185;
+  color: white;
+}

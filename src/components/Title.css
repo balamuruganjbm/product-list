@@ -1,0 +1,16 @@
+.Title {
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Title button {
+  width: 80px;
+  height: 30px;
+  background-color: #fc5185;
+  border-radius: 40px;
+  border: 2px solid black;
+  cursor: pointer;
+  outline: none;
+}
